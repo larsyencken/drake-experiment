@@ -2,3 +2,5 @@
 ;  Drakefile
 ;
 
+output/mygraph.png <- input/mydata.in, src/my_script.py
+	python $INPUT1 $INPUT0 $OUTPUT
